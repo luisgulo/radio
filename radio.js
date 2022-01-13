@@ -62,11 +62,33 @@ function AlternarPlay() {
 function CargarArray() {
     // Cargar en memoria la lista de Emisoras deseadas
     eNombre[0]="Kiss FM";
-    eUrl[0]="http://kissfm.kissfmradio.cires21.com/kissfm.mp3";
-    eImg[0]="kissfm.jpg";
+    eUrl[0]="https://kissfm.kissfmradio.cires21.com/kissfm.mp3";
+    eImg[0]="kissfm.png";
     eNombre[1]="Los 40 Principales";
-    eUrl[1]="http://23543.live.streamtheworld.com/LOS40.mp3";
+    eUrl[1]="https://20103.live.streamtheworld.com/LOS40.mp3";
     eImg[1]="los40principales.jpg";
+    eNombre[2]="Los 40 Classic";
+    eUrl[2]="http://20103.live.streamtheworld.com:3690/LOS40_CLASSIC.mp3";
+    eImg[2]="los40classic.png";
+    eNombre[3]="Cadena 100";
+    eUrl[3]="http://flucast-m02-04.flumotion.com/cope/cadena100.mp3";
+    eImg[3]="cadena100.jpg";   
+    eNombre[4]="Rock FM";
+    eUrl[4]="https://rockfm-cope-rrcast.flumotion.com/cope/rockfm.mp3";
+    eImg[4]="rockfm.jpg";  
+    eNombre[5]="RNE Clasica";
+    eUrl[5]="http://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high";
+    eImg[5]="rneclasica.jpg";
+    eNombre[6]="RNE (Madrid)";
+    eUrl[6]="https://crtve-rne1-mad.cast.addradio.de/crtve/rne1/mad/mp3/high";
+    eImg[6]="vacio.jpg";
+    eNombre[7]="Onda Cero";
+    eUrl[7]="https://wecast-b02-03.flumotion.com/promecal/radio1";
+    eImg[7]="vacio.jpg";
+    eNombre[8]="Europa FM";
+    eUrl[8]="https://str1.mediatelekom.net:9950/stream";
+    eImg[8]="vacio.jpg";
+
 };
 
 function ImprimirEmisoras() {
