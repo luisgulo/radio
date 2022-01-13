@@ -3,7 +3,7 @@ Web - Radio Streaming
 
 ![captura de pantalla movil](https://github.com/luisgulo/radio/blob/master/radio-streaming_web.png)
 
-Una pagina web para mostrar y poder escuchar y seleccionar radios por streaming.
+Una pagina web para seleccionar y escuchar radios por streaming.
 
-Código unicamente HTML y JavaScript
+El código unicamente es codigo HTML y JavaScript
 
