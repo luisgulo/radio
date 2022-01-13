@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Emisoras de Radio</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="./logos/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-8">
+            <p>
+                <h3><span class="glyphicon glyphicon-music"> </span> <span id="NombreEmisora">EMISORA</span></h3>
+                <img id="LogoEmisora" src="./logos/vacio.jpg" width="300px" height="168px"><br>
+                <audio id="UrlEmisora" autoplay controls src="">Audio no disponible</audio>
+                <br>
+                <!-- Controles de Emisora -->
+                <h2>
+                    <a href="#" onclick="Retroceder()">
+                        <span class="glyphicon glyphicon-backward"></span>
+                    </a>
+                    <a id="BotonPlay" href="#" onclick="AlternarPlay()">
+                        <span class="glyphicon glyphicon-play-circle"></span>
+                    </a>
+                    <a id="BotonPause" href="#" hidden onclick="AlternarPlay()">
+                        <span class="glyphicon glyphicon-pause"></span>
+                    </a>          
+                    <a href="#" onclick="Avanzar()">
+                        <span class="glyphicon glyphicon-forward"></span>
+                    </a>
+                </h2>
+            </p>
+        </div>
+        <div class="col-xs-4">
+            <p id="ListaEmisoras">
+                ... lista de emisoras ...
+            </p>
+        </div>
+    </div>
+</div>
+<script src="./radio.js"></script>
+</body>
+</html>
