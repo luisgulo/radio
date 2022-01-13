@@ -81,13 +81,13 @@ function CargarArray() {
     eImg[5]="rneclasica.jpg";
     eNombre[6]="RNE (Madrid)";
     eUrl[6]="https://crtve-rne1-mad.cast.addradio.de/crtve/rne1/mad/mp3/high";
-    eImg[6]="vacio.jpg";
+    eImg[6]="rne.png";
     eNombre[7]="Onda Cero";
     eUrl[7]="https://wecast-b02-03.flumotion.com/promecal/radio1";
-    eImg[7]="vacio.jpg";
+    eImg[7]="ondacero.jpg";
     eNombre[8]="Europa FM";
     eUrl[8]="https://str1.mediatelekom.net:9950/stream";
-    eImg[8]="vacio.jpg";
+    eImg[8]="europafm.png";
 
 };
 
